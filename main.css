@@ -2,13 +2,19 @@ body{
     background-color: #F8F8F8;
 }
     header{
-
+        display:inline-block;
+        width: 1000px;
+        /* background-color: plum; */
+        margin-left: calc((100% - 1000px) / 2)
     }
         header>img{
-
+            display:inline-block;
+            float:left;
         }
         nav{
-
+            display:inline-block;
+            float:right;
+            margin-top: 25px;
         }
             a{
 
@@ -17,9 +23,17 @@ body{
 
             }
     main{
-
+        display:inline-block;
+        width:1000px;
+        /* background-color:gold; */
+        margin-left: calc((100% - 1000px) / 2)
     }
         div{
+            display:inline-block;
+            width:40%;
+            /* background-color: gray; */
+            float:left;
+            margin-top:100px ;
 
         }
             h1{
@@ -28,6 +42,9 @@ body{
             p{
             }
         main>img{
+            display:inline-block;
+            width:50%;
+            float:right;
 
         }
 
