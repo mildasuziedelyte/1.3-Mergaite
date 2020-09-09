@@ -1,4 +1,53 @@
 body{
     background-color: #F8F8F8;
 }
+    header{
+
+    }
+        header>img{
+
+        }
+        nav{
+
+        }
+            a{
+
+            }
+            a:last-of-type{
+
+            }
+    main{
+
+    }
+        div{
+
+        }
+            h1{
+
+            }
+            p{
+            }
+        main>img{
+
+        }
+
+
+
+/* img->raudonus staciakampius
+html struktura
+pagal html->issirasyti css selektorius
+rasom stiliu 
+
+kai viena norime isskirti
+a:nth-of-type(5) - penktasis
+a:last - paskutinis
+a:last-of-type - paskutinis tam tikro tipo
+
+header>img
+image tagas turi priklausyti headeriui
+varnele tiksliai nurodo kad tiesioginiam vaikui
+
+header img
+jei vyresnis suveiks
+*/
 
