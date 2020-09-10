@@ -1,5 +1,6 @@
 body{
     background-color: #F8F8F8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
     header{
         display:inline-block;
@@ -15,13 +16,26 @@ body{
             display:inline-block;
             float:right;
             margin-top: 25px;
+            /* background-color:yellow; */
         }
             a{
-
+                display:inline-block;
+                float:left;
+                color:#9f9f9f;
+                text-decoration: none;
+                padding: 5px 20px 5px 20px;
+                /* background-color:red; */
+                margin-left: 10px;
+                font-size:18px;
+                border: 2px solid transparent;
+                border-radius:21px;
             }
+
             a:last-of-type{
-
+                border-color: #9f9f9f;
+                text-transform: uppercase;
             }
+
     main{
         display:inline-block;
         width:1000px;
@@ -33,19 +47,23 @@ body{
             width:40%;
             /* background-color: gray; */
             float:left;
-            margin-top:100px ;
-
+            margin-top:100px;
+            color: #9f9f9f;
         }
             h1{
-
-            }
+                font-size:120px;
+                margin:0;
+                        }
             p{
+                font-size:30px;
+                margin:0;
+
             }
         main>img{
             display:inline-block;
             width:50%;
             float:right;
-
+            margin-right:30px;
         }
 
 
